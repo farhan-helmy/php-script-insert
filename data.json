@@ -1,0 +1,3925 @@
+{
+    "sections": [
+        {
+            "section_key": "a",
+            "name": "Bahagian A (Demografi)",
+            "fields": [
+                {
+                    "key": "a_1",
+                    "no": "1",
+                    "text": "Umur pada tahun 2021",
+                    "type": "number",
+                    "required": "true",
+                    "prependText": "Tahun"
+                },
+                {
+                    "key": "a_2",
+                    "no": "2",
+                    "text": "Jantina",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Lelaki",
+                            "value": "Lelaki",
+                            "icon": "male"
+                        },
+                        {
+                            "text": "Perempuan",
+                            "value": "Perempuan",
+                            "icon": "female"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_3",
+                    "no": "3",
+                    "text": "Bangsa",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Melayu",
+                            "value": "Melayu"
+                        },
+                        {
+                            "text": "India",
+                            "value": "India"
+                        },
+                        {
+                            "text": "Cina",
+                            "value": "Cina"
+                        },
+                        {
+                            "text": "Bumiputera Sabah",
+                            "value": "Bumiputera Sabah"
+                        },
+                        {
+                            "text": "Bumiputera Sarawak",
+                            "value": "Bumiputera Sarawak"
+                        },
+                        {
+                            "text": "Orang Asli",
+                            "value": "Orang Asli"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_4",
+                    "no": "4",
+                    "text": "Agama",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Islam",
+                            "value": "Islam"
+                        },
+                        {
+                            "text": "Hindu",
+                            "value": "Hindu"
+                        },
+                        {
+                            "text": "Kristian",
+                            "value": "Kristian"
+                        },
+                        {
+                            "text": "Buddha",
+                            "value": "Buddha"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_5",
+                    "no": "5",
+                    "text": "Kawasan tempat tinggal",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Bandar",
+                            "value": "Bandar"
+                        },
+                        {
+                            "text": "Luar bandar",
+                            "value": "Luar bandar"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_6",
+                    "no": "6",
+                    "text": "Status pemilikan rumah",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sendiri",
+                            "value": "Sendiri"
+                        },
+                        {
+                            "text": "Rumah keluarga",
+                            "value": "Rumah keluarga"
+                        },
+                        {
+                            "text": "Harta pusaka",
+                            "value": "Harta pusaka"
+                        },
+                        {
+                            "text": "Sewa",
+                            "value": "Sewa"
+                        },
+                        {
+                            "text": "Saudara-mara",
+                            "value": "Saudara-mara"
+                        },
+                        {
+                            "text": "Rakan",
+                            "value": "Rakan"
+                        },
+                        {
+                            "text": "Kuarters",
+                            "value": "Kuarters"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_7",
+                    "no": "7",
+                    "text": "Jenis kediaman",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Rumah kampung",
+                            "value": "Rumah kampung"
+                        },
+                        {
+                            "text": "Rumah panjang",
+                            "value": "Rumah panjang"
+                        },
+                        {
+                            "text": "Rumah teres",
+                            "value": "Rumah teres"
+                        },
+                        {
+                            "text": "Rumah Semi-D",
+                            "value": "Rumah Semi-D"
+                        },
+                        {
+                            "text": "Ruumah Banglo",
+                            "value": "Ruumah Banglo"
+                        },
+                        {
+                            "text": "Flat",
+                            "value": "Flat"
+                        },
+                        {
+                            "text": "Pangsapuri",
+                            "value": "Pangsapuri"
+                        },
+                        {
+                            "text": "Kondominium",
+                            "value": "Kondominium"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_8",
+                    "no": "8",
+                    "text": "Berat badan",
+                    "type": "number",
+                    "required": "true",
+                    "prependText": "kg"
+                },
+                {
+                    "key": "a_9",
+                    "no": "9",
+                    "text": "Tinggi",
+                    "type": "number",
+                    "required": "true",
+                    "prependText": "cm"
+                },
+                {
+                    "key": "a_10",
+                    "no": "10",
+                    "text": "Status perkahwinan",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Belum berkahwin",
+                            "value": "Belum berkahwin"
+                        },
+                        {
+                            "text": "Berkahwin",
+                            "value": "Berkahwin"
+                        },
+                        {
+                            "text": "Berpisah/bercerai",
+                            "value": "Berpisah/bercerai"
+                        },
+                        {
+                            "text": "Kematian isteri/suami",
+                            "value": "Kematian isteri/suami"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_11",
+                    "no": "11",
+                    "text": "Pada masa ini,anda tinggal dengan",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Ibu bapa",
+                            "value": "Ibu bapa"
+                        },
+                        {
+                            "text": "Ibu sahaja",
+                            "value": "Ibu sahaja"
+                        },
+                        {
+                            "text": "Bapa sahaja",
+                            "value": "Bapa sahaja"
+                        },
+                        {
+                            "text": "Saudara-mara",
+                            "value": "Saudara-mara"
+                        },
+                        {
+                            "text": "Datuk/nenek",
+                            "value": "Datuk/nenek"
+                        },
+                        {
+                            "text": "Seorang diri",
+                            "value": "Seorang diri"
+                        },
+                        {
+                            "text": "Keluarga angkat",
+                            "value": "Keluarga angkat"
+                        },
+                        {
+                            "text": "Keluarga sendiri(berkahwin)",
+                            "value": "Keluarga sendiri(berkahwin)"
+                        },
+                        {
+                            "text": "Rakan-rakan",
+                            "value": "Rakan-rakan"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_12",
+                    "no": "12",
+                    "text": "Kelayakan akademik TERTINGGI yang telah diperoleh",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Tidak bersekolah",
+                            "value": "Tidak bersekolah"
+                        },
+                        {
+                            "text": "UPSR",
+                            "value": "UPSR"
+                        },
+                        {
+                            "text": "PMR/ PT3",
+                            "value": "PMR/ PT3"
+                        },
+                        {
+                            "text": "SPM/ SPMV",
+                            "value": "SPM/ SPMV"
+                        },
+                        {
+                            "text": "Sĳil kemahiran",
+                            "value": "Sĳil kemahiran"
+                        },
+                        {
+                            "text": "Diploma",
+                            "value": "Diploma"
+                        },
+                        {
+                            "text": "Ijazah",
+                            "value": "Ijazah"
+                        },
+                        {
+                            "text": "Sarjana",
+                            "value": "Sarjana"
+                        },
+                        {
+                            "text": "Ph.D",
+                            "value": "Ph.D"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_13",
+                    "no": "13",
+                    "text": "Sĳil kemahiran yang anda peroleh",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Tidak berkenaan",
+                            "value": "Tidak berkenaan"
+                        },
+                        {
+                            "text": "Sĳil Kemahiran Malaysia Tahap 1",
+                            "value": "Sĳil Kemahiran Malaysia Tahap 1"
+                        },
+                        {
+                            "text": "Sĳil Kemahiran Malaysia Tahap 2",
+                            "value": "Sĳil Kemahiran Malaysia Tahap 2"
+                        },
+                        {
+                            "text": "Sĳil Kemahiran Malaysia Tahap 3",
+                            "value": "Sĳil Kemahiran Malaysia Tahap 3"
+                        },
+                        {
+                            "text": "Diploma Kemahiran Malaysia",
+                            "value": "Diploma Kemahiran Malaysia"
+                        },
+                        {
+                            "text": "Diploma Lanjutan Kemahiran Malaysia",
+                            "value": "Diploma Lanjutan Kemahiran Malaysia"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_14",
+                    "no": "14",
+                    "text": "Pernahkah anda belajar atau bekerja di luar negara?",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Ya",
+                            "value": "Ya",
+                            "inner_icon": "check"
+                        },
+                        {
+                            "text": "Tidak",
+                            "value": "Tidak",
+                            "inner_icon": "cancel"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_15",
+                    "no": "15",
+                    "text": "Apakah status pekerjaan anda sekarang?",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Majikan (pemilik)",
+                            "value": "Majikan (pemilik)"
+                        },
+                        {
+                            "text": "Pekerja kerajaan",
+                            "value": "Pekerja kerajaan"
+                        },
+                        {
+                            "text": "Pekerja swasta",
+                            "value": "Pekerja swasta"
+                        },
+                        {
+                            "text": "Bekerja sendiri",
+                            "value": "Bekerja sendiri"
+                        },
+                        {
+                            "text": "Pekerja keluarga tanpa gaji",
+                            "value": "Pekerja keluarga tanpa gaji"
+                        },
+                        {
+                            "text": "Surirumah/ menjaga rumah",
+                            "value": "Surirumah/ menjaga rumah"
+                        },
+                        {
+                            "text": "Pelajar",
+                            "value": "Pelajar"
+                        },
+                        {
+                            "text": "Sedang mencari pekerjaan",
+                            "value": "Sedang mencari pekerjaan"
+                        },
+                        {
+                            "text": "Tidak bekerja/ menganggur",
+                            "value": "Tidak bekerja/ menganggur"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_16a",
+                    "no": "16a",
+                    "text": "Adakah anda memiliki rumah sendiri?",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Ya",
+                            "value": "Ya",
+                            "inner_icon": "check"
+                        },
+                        {
+                            "text": "Tidak",
+                            "value": "Tidak",
+                            "inner_icon": "cancel"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_16b",
+                    "no": "16b",
+                    "text": "JIKA TIDAK, kenapa? (Sila tandakan SATU JAWAPAN sahaja)",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Belum mampu",
+                            "value": "Belum mampu"
+                        },
+                        {
+                            "text": "Lokasi tidak sesuai",
+                            "value": "Lokasi tidak sesuai"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_17",
+                    "no": "17",
+                    "text": "Apakah taraf pekerjaan terkini anda?",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Tetap",
+                            "value": "Tetap"
+                        },
+                        {
+                            "text": "Sambilan",
+                            "value": "Sambilan"
+                        },
+                        {
+                            "text": "Sementara",
+                            "value": "Sementara"
+                        },
+                        {
+                            "text": "Kontrak",
+                            "value": "Kontrak"
+                        },
+                        {
+                            "text": "Tidak berkenaan",
+                            "value": "Tidak berkenaan"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_18",
+                    "no": "18",
+                    "text": "Dimanakah tempat anda bekerja sekarang?",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Dalam negeri kelahiran",
+                            "value": "Dalam negeri kelahiran"
+                        },
+                        {
+                            "text": "Luar negeri kelahiran",
+                            "value": "Luar negeri kelahiran"
+                        },
+                        {
+                            "text": "Luar negara (cth: Singapura)",
+                            "value": "Luar negara (cth: Singapura)"
+                        },
+                        {
+                            "text": "Kontrak",
+                            "value": "Kontrak"
+                        },
+                        {
+                            "text": "Tidak berkenaan",
+                            "value": "Tidak berkenaan"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_19",
+                    "no": "19",
+                    "text": "Sila nyatakan pendapatan bulanan anda",
+                    "type": "text",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Pendapatan kasarbulanan anda (gaji upah)",
+                            "value": "Pendapatan kasarbulanan anda (gaji upah)",
+                            "questions": [
+                                {
+                                    "text": "RM",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Pendapatan daripada sumber lain (jika ada)",
+                            "value": "Pendapatan daripada sumber lain (jika ada)",
+                            "questions": [
+                                {
+                                    "text": "RM",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_20",
+                    "no": "20",
+                    "text": "Bilangan tanggungan (Tidak termasuk diri sendiri)",
+                    "type": "text",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "",
+                            "value": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "a_21",
+                    "no": "21",
+                    "text": "Sila tandakan (√) jumlah bayaran ansuran bulanan (hutang/ pinjaman/ kad kredit) anda berdasarkan pilihan jawapan yang berikut",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Tiada",
+                            "value": "Tiada"
+                        },
+                        {
+                            "text": "Kurang daripada RM500",
+                            "value": "Kurang daripada RM500"
+                        },
+                        {
+                            "text": "RM501 -RM1,000",
+                            "value": "RM501 -RM1,000"
+                        },
+                        {
+                            "text": "RM1,001-RM1,500",
+                            "value": "RM1,001-RM1,500"
+                        },
+                        {
+                            "text": "RM1,501-RM2,000",
+                            "value": "RM1,501-RM2,000"
+                        },
+                        {
+                            "text": "RM2001 -RM2,500",
+                            "value": "RM2001 -RM2,500"
+                        },
+                        {
+                            "text": "RM2,501-RM3,000",
+                            "value": "RM2,501-RM3,000"
+                        },
+                        {
+                            "text": "RM3,001-RM3,500",
+                            "value": "RM3,001-RM3,500"
+                        },
+                        {
+                            "text": "RM3,501-RM4,000",
+                            "value": "RM3,501-RM4,000"
+                        },
+                        {
+                            "text": "RM4,001-RM5,000",
+                            "value": "RM4,001-RM5,000"
+                        },
+                        {
+                            "text": "Melebihi RM5,001,nyatakan",
+                            "value": "Melebihi RM5,001,nyatakan",
+                            "questions": [
+                                {
+                                    "text": "RM",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_23",
+                    "no": "23",
+                    "text": "Sila tandakan (√) pada pernyataan di bawah mengikut skala yang diberikan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "questions": [
+                        {
+                            "text": "Saya mengambil pinjaman baharu untuk menampung hutang lama",
+                            "required": "true"
+                        },
+                        {
+                            "text": "Pendapatan yang saya peroleh sepadan/setimpal dengan pekerjaan saya",
+                            "required": "true"
+                        },
+                        {
+                            "text": "Saya perlu melakukan kerja lebih masa bagi menampung keperluan bulanan",
+                            "required": "true"
+                        },
+                        {
+                            "text": "Pekerjaan saya adalah sepadan dengan kelayakan saya",
+                            "required": "true"
+                        },
+                        {
+                            "text": "Mudah untuk saya mendapat pekerjaan yang setara dengan kelayakan saya",
+                            "required": "true"
+                        }
+                    ],
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_24",
+                    "no": "24",
+                    "text": "Berdasarkan pilihan jawapan berikut, yang manakah menggambarkan tentang kecukupan pendapatan anda? (Sila tandakan SATU JAWAPAN sahaja)",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Tidak mencukupi",
+                            "value": "Tidak mencukupi"
+                        },
+                        {
+                            "text": "Cukup untuk keperluan asas sahaja",
+                            "value": "Cukup untuk keperluan asas sahaja"
+                        },
+                        {
+                            "text": "Cukup untuk kebanyakan perkara",
+                            "value": "Cukup untuk kebanyakan perkara"
+                        },
+                        {
+                            "text": "Cukup untuk membeli semua barang dan mampu membuat simpanan",
+                            "value": "Cukup untuk membeli semua barang dan mampu membuat simpanan"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_25",
+                    "no": "25",
+                    "text": "Apakah yang mendorong anda untuk melanjutkan pelajaran? (Sila tandakan SATU JAWAPAN sahaja)",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Menambah ilmu pengetahuan",
+                            "value": "Menambah ilmu pengetahuan"
+                        },
+                        {
+                            "text": "Peluang mendapat kerja yang lebih baik/ kenaikan pangkat",
+                            "value": "Peluang mendapat kerja yang lebih baik/ kenaikan pangkat"
+                        },
+                        {
+                            "text": "Dorongan rakan-rakan",
+                            "value": "Dorongan rakan-rakan"
+                        },
+                        {
+                            "text": "Dorongan ibu bapa/ ahli keluarga",
+                            "value": "Dorongan ibu bapa/ ahli keluarga"
+                        },
+                        {
+                            "text": "Dorongan guru",
+                            "value": "Dorongan guru"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_26",
+                    "no": "26",
+                    "text": "Bagaimanakah anda mendapatkan maklumat berkaitan peluang melanjutkan pelajaran? (Boleh tanda LEBIH daripada SATU JAWAPAN)",
+                    "type": "checkbox",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Internet",
+                            "value": "Internet"
+                        },
+                        {
+                            "text": "Blog",
+                            "value": "Blog"
+                        },
+                        {
+                            "text": "Pameran pendidikan",
+                            "value": "Pameran pendidikan"
+                        },
+                        {
+                            "text": "Ibu bapa/ penjaga ",
+                            "value": "Ibu bapa/ penjaga "
+                        },
+                        {
+                            "text": "Risalah",
+                            "value": "Risalah"
+                        },
+                        {
+                            "text": "Rakan-rakan",
+                            "value": "Rakan-rakan"
+                        },
+                        {
+                            "text": "Surat khabar",
+                            "value": "Surat khabar"
+                        },
+                        {
+                            "text": "Televisyen",
+                            "value": "Televisyen"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "a_27",
+                    "no": "27",
+                    "text": "Berdasarkan penglibatan anda SEKARANG di sekolah/kolej/universiti/dll, sila tandakan pada ruang yang berkenaan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "questions": [
+                        {
+                            "text": "Saya terlibat secara aktif dalam aktiviti kokurikulum",
+                            "type": "scale",
+                            "required": "true"
+                        },
+                        {
+                            "text": "Aktiviti kokurikulum banyak memberi manfaat kepada saya",
+                            "type": "scale",
+                            "required": "true"
+                        }
+                    ],
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "a_28",
+                    "no": "28",
+                    "text": "Sila tandakan peringkat penglibatan tertinggi anda dalam kokurikulum. (Sila tandakan SATU JAWAPAN sahaja)",
+                    "type": "radio",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sekolah",
+                            "value": "Sekolah"
+                        },
+                        {
+                            "text": "Daerah",
+                            "value": "Daerah"
+                        },
+                        {
+                            "text": "Negeri",
+                            "value": "Negeri"
+                        },
+                        {
+                            "text": "Negara",
+                            "value": "Negara"
+                        },
+                        {
+                            "text": "Antarabangsa",
+                            "value": "Antarabangsa"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_key": "b",
+            "name": "Bahagian B (Literasi Pendidikan)",
+            "fields": [
+                {
+                    "key": "b_29",
+                    "no": "29",
+                    "text": "Nyatakan tahap penguasaan anda dalam kemahiran berikut mengikut skala yang diberikan",
+                    "type": "multiquestion",
+                    "required": true,
+                    "questions": [
+                        {
+                            "text": "Membaca dalam Bahasa Melayu",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Menulis dalam Bahasa Melayu",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Bertutur dalam Bahasa Melayu",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Memahami maksud apa yang dibaca dalam Bahasa Melayu",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Membaca dalam Bahasa Inggeris",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Menulis dalam Bahasa Inggeris",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Bertutur dalam Bahasa Inggeris",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Memahami maksud apa yang dibaca dalam Bahasa Inggeris",
+                            "type": "scale",
+                            "required": true
+                        },
+                        {
+                            "text": "Mengira",
+                            "type": "scale",
+                            "required": true
+                        }
+                    ],
+                    "answers": [
+                        {
+                            "text": "Tidak menguasai lansung",
+                            "value": 0
+                        },
+                        {
+                            "text": "Kurang baik",
+                            "value": 1
+                        },
+                        {
+                            "text": "Sederhana",
+                            "value": 2
+                        },
+                        {
+                            "text": "Baik",
+                            "value": 3
+                        },
+                        {
+                            "text": "Sangat baik",
+                            "value": 4
+                        }
+                    ]
+                },
+                {
+                    "key": "b_30a",
+                    "no": "30a",
+                    "text": "Pada masa ini, adakah anda mempunyai masalah untuk menyambung / menamatkan pengajian/ pembelajaran? Sila tandakan [] SATU jawapan sahaja pada ruang yang berkenaan",
+                    "type": "radio",
+                    "required": true,
+                    "answers": [
+                        {
+                            "text": "Tiada masalah",
+                            "value": "Tiada masalah"
+                        },
+                        {
+                            "text": "Masalah menyambung pengajian/pelajaran",
+                            "value": "Masalah menyambung pengajian/pelajaran"
+                        },
+                        {
+                            "text": "Masalah menamatkan pengajian/pelajaran",
+                            "value": "Masalah menamatkan pengajian/pelajaran"
+                        }
+                    ]
+                },
+                {
+                    "key": "b_30b",
+                    "no": "30b",
+                    "text": "Bagi jawapan 30 (b) dan (c), sila tandakan [] pada pernyataan di bawah: (Boleh tanda LEBIH daripada SATU JAWAPAN)",
+                    "type": "checkbox",
+                    "required": true,
+                    "hidden_variable": "30a",
+                    "hidden_value": "Tiada masalah",
+                    "answers": [
+                        {
+                            "text": "Tidak mampu daripada segi kewangan",
+                            "value": "Tidak mampu daripada segi kewangan"
+                        },
+                        {
+                            "text": "Diri sendiri (tidak berminat)",
+                            "value": "Diri sendiri (tidak berminat)"
+                        },
+                        {
+                            "text": "Masalah keluarga/ibu bapa",
+                            "value": "Masalah keluarga/ibu bapa"
+                        },
+                        {
+                            "text": "Rakan sebaya",
+                            "value": "Rakan sebaya"
+                        },
+                        {
+                            "text": "Kurang upaya (Fizikal)",
+                            "value": "Kurang upaya (Fizikal)"
+                        },
+                        {
+                            "text": "Kemudahan infrastruktur",
+                            "value": "Kemudahan infrastruktur"
+                        },
+                        {
+                            "text": "Jarak ke tempat pengajian (cth: jauh)",
+                            "value": "Jarak ke tempat pengajian (cth: jauh)"
+                        },
+                        {
+                            "text": "Persekitaran tempat pengajian",
+                            "value": "Persekitaran tempat pengajian"
+                        },
+                        {
+                            "text": "Kekangan masa",
+                            "value": "Kekangan masa"
+                        },
+                        {
+                            "text": "Perlu bekerja untuk menambah pendapatan keluarga",
+                            "value": "Perlu bekerja untuk menambah pendapatan keluarga"
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "key": "b_139",
+                    "no": "139",
+                    "text": "Sila tandakan [] pada ruang yang berkenaan mengikut skala di bawah ini.",
+                    "type": "multistepquestion",
+                    "required": true,
+                    "questions": [
+                        {
+                            "text": "Angkat berat (weight lifting)",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Badminton",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Bola jaring",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Bola keranjang",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Bola sepak",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Street soccer",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Bola tampar",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Futsal",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Boling",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Gimnastik",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Golf",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Hoki",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Kriket",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Lawan pedang",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Lumba basikal",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Memanah",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Menembak",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Olahraga",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Perahu layar",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Ping pong",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Ragbi",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Seni mempertahankan diri",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Sepak Takraw",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Skuasy",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Snooker",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Sukan akuatik (cth: renang dll)",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Sukan berkuda (Equestrian)",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Sukan bermotor",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Sukan tradisional/ rakyat (tarik tali,layang-layang, dll)",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Tenis",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Joging",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Aerobik/ Zumba",
+                            "type": "scale",
+                            "required": true,
+                            "question": {
+                                "text": "Minit",
+                                "type": "text",
+                                "required": true
+                            }
+                        },
+                        {
+                            "text": "Lain-lain",
+                            "value": "Lain-lain",
+                            "questions": [
+                                {
+                                    "text": "Nyatakan",
+                                    "type": "text",
+                                    "required": true,
+                                    "question": {
+                                        "text": "Minit",
+                                        "type": "text",
+                                        "required": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_key": "c",
+            "name": "Bahagian C (Pembangunan Kendiri)",
+            "fields": [
+                {
+                    "key": "c_31",
+                    "no": "31",
+                    "text": "Saya belia yang cemerlang",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_32",
+                    "no": "32",
+                    "text": "Saya disukai ramai orang kerana kebolehan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_33",
+                    "no": "31",
+                    "text": "Saya berpuas hati dengan penampilan fizikal (cth:rupa paras) saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_34",
+                    "no": "34",
+                    "text": "Saya rasa dirisaya tidak berharga",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_35",
+                    "no": "35",
+                    "text": "Saya dapat menyelesaikan masalah apabila saya cuba dengan bersungguh-sungguh",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_36",
+                    "no": "36",
+                    "text": "Saya yakin saya boleh mengendalikan sesuatu situasiyang tidak dĳangka dengan baik",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_37",
+                    "no": "37",
+                    "text": "Pada kebiasaannya, saya boleh mengendalikan apa sahaja yang ditugaskan kepada saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_38",
+                    "no": "38",
+                    "text": "Saya mempunyai matlamat dan harapan yang tinggi untukdiri sendiri",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_39",
+                    "no": "39",
+                    "text": "Saya berusaha untuk mencapai matlamat saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_40",
+                    "no": "40",
+                    "text": "Saya berminat untuk mempelajari perkara baharu",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_41",
+                    "no": "41",
+                    "text": "Saya berusaha sekarang untuk kesenangan masa hadapan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_42",
+                    "no": "42",
+                    "text": "Saya meneruskan tugasan yang dimulakan sehingga selesai",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_43",
+                    "no": "43",
+                    "text": "Saya lebih suka melakukan sesuatuyang mencabar",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_44",
+                    "no": "44",
+                    "text": "Saya perlu merancang lebih awal sebelum memulakan tugas",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_45",
+                    "no": "45",
+                    "text": "Saya akan memberitahu keluarga apabila saya tidak bersetuju dengan mereka",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_46",
+                    "no": "46",
+                    "text": " Saya sukar menyuarakan pendapat semasa berbincang dalam kumpulan walaupun saya yakin pendapat saya benar",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_47",
+                    "no": "47",
+                    "text": "Saya akan meminta penjelasan bila seseorang menyatakan sesuatu yang mengelirukan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_48",
+                    "no": "48",
+                    "text": "Saya tegas dalam menyatakan pendirian saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_49",
+                    "no": "49",
+                    "text": "Saya dapat memikirkansatuatau lebihcara untukmencapai tujuan dalam hidup saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_50",
+                    "no": "50",
+                    "text": "Saya biasanya menghadapi sesuatuperkara dengan tenang",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_51",
+                    "no": "51",
+                    "text": "Saya menentukan hala tuju diri saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_52",
+                    "no": "52",
+                    "text": "Saya percaya dapat menangani sesuatu masalah dengan pengalaman yang saya ada",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_53",
+                    "no": "53",
+                    "text": "Saya mempunyai disiplin diri yang tinggi",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_54",
+                    "no": "54",
+                    "text": "Saya dapat mempertahankan minat saya terhadap sesuatu perkara",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_55",
+                    "no": "55",
+                    "text": "Saya mempunyai keyakinan diri sendiri untuk membantu mengharungi pelbagai masalah dalam hidup saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_56",
+                    "no": "56",
+                    "text": "Saya merasakan kehidupan saya amat bererti",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_57",
+                    "no": "57",
+                    "text": "Saya bersyukur dengan apa yang saya ada",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_58",
+                    "no": "58",
+                    "text": "Saya sangat selesa mengakui kesilapan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_59",
+                    "no": "59",
+                    "text": "Saya menjadikan Al-Quran/kitab agama sebagai rujukan dan panduan hidup saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_60",
+                    "no": "60",
+                    "text": "Saya memastikan agar saya faham tuntutan / kewajipan / ajaran agama saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_61",
+                    "no": "61",
+                    "text": "Saya akan balas balik setiap perbuatan jahat yang dilakukan ke atas saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_62",
+                    "no": "62",
+                    "text": "Agama penting dalam hidup saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_63",
+                    "no": "63",
+                    "text": "Saya memahami diri saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_64",
+                    "no": "64",
+                    "text": "Saya sedar apabila emosi saya terganggu",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_65",
+                    "no": "65",
+                    "text": "Saya tahu bila emosi saya dipengaruhi oleh keadaan fisiologi saya (seperti lapar, penat atau tidak cukup tidur)",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_66",
+                    "no": "66",
+                    "text": "Saya boleh tahu emosi orang lain dengan melihat gerak geri mereka",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_67",
+                    "no": "67",
+                    "text": "Saya selalu mempertimbangkan perasaan orang lain sebelum berkata sesuatu",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_68",
+                    "no": "68",
+                    "text": "Saya boleh menyesuaikan emosi saya berdasarkan keadaan sekeliling",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "c_69",
+                    "no": "69",
+                    "text": "Saya boleh mengawal diridaripada melepaskan emosi negatif saya kepada orang lain",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_key": "d",
+            "name": "Bahagian D (Ekonomi)",
+            "fields": [
+                {
+                    "key": "d_70",
+                    "no": "70",
+                    "text": "Saya risau tentang kedudukan kewangan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "d_71",
+                    "no": "71",
+                    "text": "Saya sentiasa memastikan dirisaya dilindungi daripada sebarang risiko kewangan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "d_72",
+                    "no": "72",
+                    "text": "Saya sentiasa menyimpan untuk perbelanjaan yang tidak dĳangka",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "d_73",
+                    "no": "73",
+                    "text": "Saya merancang perbelanjaan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "d_74",
+                    "no": "74",
+                    "text": "Saya mengetahui kedudukan kewangan saya (seperti jumlah pinjaman, simpanan dll)",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "d_75",
+                    "no": "75",
+                    "text": "Saya mempertimbangkan tentang kemampuan bayaran balik sebelum meminjam",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "d_76",
+                    "no": "76",
+                    "text": "Saya perlu berhutang untuk perbelanjaan keperluan harian",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_key": "e",
+            "name": "Bahagian E (Hubungan Sosial dan Keselamatan)",
+            "fields": [
+                {
+                    "key": "e_77",
+                    "no": "77",
+                    "text": "Saya sayang ahli keluarga saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_77",
+                    "no": "77",
+                    "text": "Saya sayang ahli keluarga saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_78",
+                    "no": "78",
+                    "text": "Saya suka berkongsi masalah dengan keluarga saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_79",
+                    "no": "79",
+                    "text": "Saya suka dengan sentuhan kasih sayang daripada keluarga saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_80",
+                    "no": "80",
+                    "text": "Saya suka menunjukkan kemesraan dalam keluarga",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_81",
+                    "no": "81",
+                    "text": "Saya selalu menghabiskan masa dengan ahli keluarga",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_82",
+                    "no": "82",
+                    "text": "Saya selalu menyertai aktiviti seperti gotong-royong bersama penduduk di sekitar tempat tinggal saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_83",
+                    "no": "83",
+                    "text": "Saya mengenali dengan rapat orang yang tinggal berdekatan dengan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_84",
+                    "no": "84",
+                    "text": "Saya selalu meluangkan masa untuk melakukan pelbagai aktiviti bersama rakan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_85",
+                    "no": "85",
+                    "text": "Saya suka membantu rakan-rakan yang menghadapi masalah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_86",
+                    "no": "86",
+                    "text": "Saya rasa selamat berjalan di kawasan perumahan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_87",
+                    "no": "87",
+                    "text": "Saya yakin untuk keluar seorang diripada waktu malam di kawasan perumahan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_87",
+                    "no": "87",
+                    "text": "Saya yakin untuk keluar seorang diripada waktu malam di kawasan perumahan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_88",
+                    "no": "88",
+                    "text": "Kes kecurian sering berlaku di tempat saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_89",
+                    "no": "89",
+                    "text": "Ragut merupakan perkara biasa di kawasan saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "e_90",
+                    "no": "90",
+                    "text": "Terdapat keganasan atau penderaan dalam kalangan ahli keluarga saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_key": "f",
+            "name": "Bahagian F (Potensi Diri)",
+            "fields": [
+                {
+                    "key": "f_91",
+                    "no": "91",
+                    "text": "Saya mengambil tahu tentang isu semasa",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_92",
+                    "no": "92",
+                    "text": "Saya membawa perubahan kepada masyarakat",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_93",
+                    "no": "93",
+                    "text": "Saya adalah seorang ketua kumpulan yang baik",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_94",
+                    "no": "94",
+                    "text": "Pendapat saya sering diterima oleh rakan-rakan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_95",
+                    "no": "95",
+                    "text": "Saya sentiasa memberi peluang kepada ahli kumpulan untuk memberikan pandangan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_96",
+                    "no": "96",
+                    "text": "Saya mengamalkan apa yang saya katakan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_97",
+                    "no": "97",
+                    "text": "Saya mudah untuk membimbing rakan-rakan",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_98",
+                    "no": "98",
+                    "text": "Saya berinteraksi dengan masyarakat daripada budaya yang berbeza",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_99",
+                    "no": "99",
+                    "text": "Saya menghormati nilai-nilai masyarakat daripada budaya yang pelbagai",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_100",
+                    "no": "100",
+                    "text": "Saya berfikiran terbuka terhadap nilai-nilai masyarakat daripada budaya yang berbeza",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_101",
+                    "no": "101",
+                    "text": "Saya tidak peduli dengan kebersihan di luar kawasan rumah saya",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_102",
+                    "no": "102",
+                    "text": "Saya tidak mengetepikan penjagaan alam sekitar",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_103",
+                    "no": "103",
+                    "text": "Saya tidak melakukan pembakaran terbuka",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_105",
+                    "no": "105",
+                    "text": "Saya mengasingkan sampah-sarap untuk tujuan kitar semula",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_106",
+                    "no": "106",
+                    "text": "Saya berpeluang untuk bekerjasama dengan orang lain dalam kawasan kejiranan untukmenjadikannya lebih baik",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                },
+                {
+                    "key": "f_104",
+                    "no": "104",
+                    "text": "Saya mengurangkan penggunaan beg plastik semasa membeli-belah",
+                    "type": "multiquestion",
+                    "required": "true",
+                    "answers": [
+                        {
+                            "text": "Sangat tidak setuju",
+                            "value": "1"
+                        },
+                        {
+                            "text": "Tidak setuju",
+                            "value": "2"
+                        },
+                        {
+                            "text": "Setuju",
+                            "value": "3"
+                        },
+                        {
+                            "text": "Sangat setuju",
+                            "value": "4"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
